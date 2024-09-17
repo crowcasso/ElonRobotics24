@@ -10,7 +10,7 @@ import edu.elon.robotics.RobotHardware;
 
 public class AutoCommon extends LinearOpMode {
 
-    private RobotHardware robot;
+    protected RobotHardware robot;
 
     @Override
     public void runOpMode() throws InterruptedException {
