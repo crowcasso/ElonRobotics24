@@ -2,17 +2,16 @@ package edu.elon.robotics.auto;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 
-@Autonomous(name = "Test Turning")
+@Autonomous(name = "TestTurning")
 public class TestTurning extends AutoCommon {
 
     private final double[]  ANGLE_SEQ = {90, -90, -180, 180, 45, -45,
-                                         90, 90, 90, 90,
-                                         -90, -90, -90, -90};
+            90, 90, 90, 90, -90, -90, -90, -90};
     private final double   SLOW_SPEED = 0.3;
-    private final double MEDIUM_SPEED = 0.6;
-    private final double   FAST_SPEED = 0.9;
+    private final double MEDIUM_SPEED = 0.65;
+    private final double   FAST_SPEED = 1.0;
     private final long    SHORT_PAUSE = 250;
-    private final long     LONG_PAUSE = 1000;
+    private final long     LONG_PAUSE = 3000;
 
     @Override
     public void runOpMode() throws InterruptedException {
