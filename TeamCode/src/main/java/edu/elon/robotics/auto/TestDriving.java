@@ -7,8 +7,8 @@ import edu.elon.robotics.KiwiDriveRatio;
 @Autonomous(name = "Test Driving")
 public class TestDriving extends AutoCommon {
 
-    private final double[]  DRIVE_SEQ = {50, -50};
-    private final double[] STRAFE_SEQ = {0, 0};
+    private final double[]  DRIVE_SEQ = {100, -100,   0,    0, 75, -75,  -50,   50, 100, -100};
+    private final double[] STRAFE_SEQ = {  0,    0, 100, -100, 75, -75,  100, -100, -50,   50};
     private final double   SLOW_SPEED = 0.3;
     private final double MEDIUM_SPEED = 0.65;
     private final double   FAST_SPEED = 1.0;
@@ -55,9 +55,6 @@ public class TestDriving extends AutoCommon {
             if (!opModeIsActive()) return;
             sleep(SHORT_PAUSE);
         }
-
-        // take a break
-        sleep(LONG_PAUSE);
     }
 
 }
