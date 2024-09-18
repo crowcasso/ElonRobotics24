@@ -5,6 +5,7 @@ package edu.elon.robotics.auto;
  */
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+import com.qualcomm.robotcore.hardware.DcMotor;
 
 import edu.elon.robotics.RobotHardware;
 
@@ -22,6 +23,14 @@ public class AutoCommon extends LinearOpMode {
     }
 
     protected void driveDistance(double cmForward, double cmSide, double maxPower) {
+
+    }
+
+    protected void rampUp(int maxTicks, double maxPower, DcMotor motor) {
+
+    }
+
+    protected void rampDown(int maxTicks, double maxPower, DcMotor motor) {
 
     }
 

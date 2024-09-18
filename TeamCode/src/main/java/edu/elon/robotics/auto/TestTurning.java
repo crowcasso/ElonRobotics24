@@ -9,8 +9,8 @@ public class TestTurning extends AutoCommon {
                                          90, 90, 90, 90,
                                          -90, -90, -90, -90};
     private final double   SLOW_SPEED = 0.3;
-    private final double MEDIUM_SPEED = 0.65;
-    private final double   FAST_SPEED = 1.0;
+    private final double MEDIUM_SPEED = 0.6;
+    private final double   FAST_SPEED = 0.9;
     private final long    SHORT_PAUSE = 250;
     private final long     LONG_PAUSE = 1000;
 

@@ -10,8 +10,8 @@ public class TestDriving extends AutoCommon {
     private final double[]  DRIVE_SEQ = {100, -100,   0,    0, 75, -75,  -50,   50, 100, -100};
     private final double[] STRAFE_SEQ = {  0,    0, 100, -100, 75, -75,  100, -100, -50,   50};
     private final double   SLOW_SPEED = 0.3;
-    private final double MEDIUM_SPEED = 0.65;
-    private final double   FAST_SPEED = 1.0;
+    private final double MEDIUM_SPEED = 0.6;
+    private final double   FAST_SPEED = 0.9;
     private final long    SHORT_PAUSE = 250;
     private final long     LONG_PAUSE = 1000;
 
