@@ -34,4 +34,8 @@ public class AutoCommon extends LinearOpMode {
 
     }
 
+    protected void turnIMU(double degrees, double power) {
+
+    }
+
 }

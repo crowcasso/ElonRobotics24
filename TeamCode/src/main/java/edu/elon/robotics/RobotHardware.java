@@ -80,4 +80,8 @@ public class RobotHardware {
         motorAux.setPower(ratio.powerAux);
     }
 
+    public double getHeading() {
+        return 0.0; // fix me
+    }
+
 }
