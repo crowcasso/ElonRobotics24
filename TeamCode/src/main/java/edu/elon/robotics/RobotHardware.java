@@ -8,6 +8,7 @@ package edu.elon.robotics;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.HardwareMap;
+import com.qualcomm.robotcore.hardware.IMU;
 
 public class RobotHardware {
 
@@ -17,6 +18,8 @@ public class RobotHardware {
     public DcMotor motorAux;
 
     private KiwiDriveRatio ratio;
+
+    public IMU imu;
 
     public RobotHardware(HardwareMap hardwareMap, boolean isAuto) {
         /*
