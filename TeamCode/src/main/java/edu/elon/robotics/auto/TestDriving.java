@@ -2,8 +2,6 @@ package edu.elon.robotics.auto;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 
-import edu.elon.robotics.KiwiDriveRatio;
-
 @Autonomous(name = "Test Driving")
 public class TestDriving extends AutoCommon {
 
